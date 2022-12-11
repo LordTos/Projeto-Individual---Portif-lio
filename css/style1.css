@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;}
+
+#menu {
+    height: 800px;
+    width: 200px;
+    background-color: rgb(37, 37, 39);
+    margin-left: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    border-radius: 0px 0px 100px 100px;
+    }
+
+#menu ul {
+    list-style: none;
+    
+}
+
+#menu ul li a{
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    transition: background .4s;
+    padding: 20px;
+}
+
+#menu ul li a:hover {
+    background-color: #00BFFF;
+}
+
+body{ /*alternativa de fundo #8e9caa*/
+    background-color: #b7c1cc;
+    background-image: url(lorestas-brasileiras-florestas-do-brasil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+.redes{
+    display: inline;
+    list-style: none;
+    padding: 20px;
+}
+
+.redes li {
+    display: inline-block;
+
+}
+
+div{
+    display: inline-block;
+}
+
+
+#home {
+    
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 10%;
+    text-align: center;
+    border-radius: 10px;
+
+    }
+
+#home2 {
+    
+    width: 800px;
+    margin-left: 20%;
+    margin-top: 60px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color:#6A5ACD;
+    text-transform: uppercase;
+}
+
+#ap {margin-top: 5%;
+    margin-left: 5%;
+    
+  
+}
+
+#area{
+    width: 300px;
+    margin-left: 5%;
+    
+ }
